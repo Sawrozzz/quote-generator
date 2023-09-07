@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chulo Solution Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>
+            Random Quotes Generator
+        </h1>
+
+
+        <select id="category">
+            <option value="">--Select Category--</option>
+            <option value="science">Science</option>
+            <option value="philosophy">Philosophy</option>
+            <option value="love">love</option>
+            <option value="tech">tech</option>
+        </select>
+        <button id="toggleButton">Dark Mode</button>
+
+
+        <div class="buttons">
+          
+            <button  class= "size"id="increaseFont">+</button> 
+            <button class="size" id="decreaseFont">-</button>
+            <h3 class="look">Size of Quote</h3>
+        <div class="buttons">
+          
+            <button  class= "size"id="increaseFont">+</button> 
+            <h3 class="look">Change size</h3>
+            <button class="size1" id="decreaseFont">-</button>
+
+
+        </div>
+        <div id="quoteDisplay">
+            "Quote will be Display Here!!!"
+        </div>
+        
+        <div>
+            <button class="btn1" id="btn" onclick="newQuote()">New Quotes</button>
+        <div class="slide">
+            <button class="prv" id="prv" >Previous</button>
+            <button class="btn" id="btn" onclick="newQuote()">New Quotes</button>
+            <button class="nxt" id="nxt">Next</button>
+        </div>
+        
+        
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="mode.js"></script>
+    <script src="font.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+
+.card{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+ 
+ }
+ 
+ .card h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+     
+ #quoteDisplay{
+     text-align: center;
+     font-size: large;
+     margin-top: 10%;
+     display: flexbox;
+ }
+
+ .btn1{
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     background-color:white;
+     color: #181818;
+     border-radius: 8px;
+     font-size: 30px;
+     cursor: pointer;
+ }
+ .prv{
+     position: absolute;
+     bottom: 0;
+     left: 10%;
+     transform: translateX(-50%);
+     background-color:white;
+     color: #181818;
+     border-radius: 8px;
+     font-size: 25px;
+     cursor: pointer;
+ }
+ .nxt{
+     position: absolute;
+     bottom: 0;
+     left: 90%;
+     transform: translateX(-50%);
+     background-color:white;
+     color: #181818;
+     border-radius: 8px;
+     font-size: 30px;
+     cursor: pointer;
+ }
+ body.light{
+     /* background-color: white; */
+     background-color: #F0F2F5;
+     color: #181818;
+ }
+ body.dark{
+     background-color: #181818;
+     color: white;
+ }
+ /* .btn1.light{
+     background-color: #783030;
+     color: white;
+ } */
+ /* #btn.dark{
+     background-color: white;
+     color: #181818;
+ } */
+ 
+ 
+ .toggleButton{
+     border-radius: 8px;
+     font-size: 30px;
+     cursor: pointer;
+ 
+ }
+ 
+ #quoteDisplay{
+     font-size: xx-large;
+ }
+ 
+ .buttons {
+     display: flex;
+     gap: 40px;
+     justify-content: end
+     
+ }
+ 
+ .size {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     transition: background-color 0.3s;
+     border-radius: 10px;
+     width: 10px;
+     
+ }
+ 
+ .look{
+     display: flex;
+     justify-content: center;
+ }
+ 
+.size1{
+    font-size: large;
+    margin-top: 10%;
+
+}
+
+
+/* .btn1{
+    position: relative;
+    transform: translateX(-50%);
+    background-color:white;
+    color: #181818;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 8em;
+   
+}
+.prv{
+   bottom: 0;
+    transform: translateX(-50%);
+    background-color:white;
+    color: #181818;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.nxt{
+    position: relative;
+    transform: translateX(-50%);
+    background-color:white;
+    color: #181818;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+} */
+
+/* .prv{
+    background-color:white;
+    color: #181818;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.btn1{
+    background-color:white;
+    color: #181818;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.nxt{
+    background-color:white;
+    color: #181818;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+} */
+.prv{
+    
+    height: 40px;
+    width: 20rem;
+    margin : 40px;
+    font-size: 25px;
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+body.light{
+    /* background-color: white; */
+    background-color: #F0F2F5;
+    color: #181818;
+}
+body.dark{
+    background-color: #181818;
+    color: white;
+}
+/* .btn1.light{
+    background-color: #783030;
+    color: white;
+} */
+/* #btn.dark{
+    background-color: white;
+    color: #181818;
+} */
+
+
+.toggleButton{
+    border-radius: 8px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#quoteDisplay{
+    font-size: xx-large;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    justify-content: end
+    
+}
+
+.size {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+    width: 3em;
+    height: 2.5rem;
+    margin: 12px;
+    padding-left: 14px;
+    
+}
+.size1{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+    width: 3em;
+    height: 2.5rem;
+    margin: 12px;
+    
+}
+.size:hover{
+    background-color:#04e3d4; 
+    color: black;
+
+}
+
+.size1:hover{
+    background-color:#04e3d4; 
+    color: black;
+
+}
+
+.look{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:480px){
+
+    #quoteDisplay{
+        display:inline-flex;
+    }
+
+
+    .btn1{
+        left: 57%;
+    }
+    .prv{
+        width: 90px;
+        height: em;
+    }
+}
+/* @media (max-width:768px){
+    .nxt{
+        left: 95%;
+    }
+    .btn1{
+        left: 57%;
+    }
+    .prv{
+        left: 12%;
+    }
+} */
+
